@@ -12,9 +12,17 @@ class CashRegister
     @items = []
   end  
   
+  #total
+#     returns the current total
+  
   def total
     @total
   end
+  
+  #add_item
+#     accepts a title and a price and increases the total 
+#     also accepts an optional quantity 
+#     doesn't forget about the previous total 
   
   def add_item(item, price, amount = 1)
     @price = price 
@@ -30,23 +38,33 @@ class CashRegister
     end
   end
   
-  def apply_discount
-end
-#   #total
-#     returns the current total 
-#   #add_item
-#     accepts a title and a price and increases the total 
-#     also accepts an optional quantity 
-#     doesn't forget about the previous total 
-#   #apply_discount
+  #apply_discount
 #     the cash register was initialized with an employee discount
 #       applies the discount to the total price 
 #       returns success message with updated total 
 #       reduces the total 
 #     the cash register was not initialized with an employee discount
-#       returns a string error message that there is no discount to apply 
-#   #items
-#     returns an array containing all items that have been added 
-#   #void_last_transaction
+#       returns a string error message that there is no discount to apply
+
+  def apply_discount
+      
+  end
+  
+  #   #items
+#     returns an array containing all items that have been added
+
+  def items
+    
+  end
+  
+  #   #void_last_transaction
 #     subtracts the last item from the total 
-#     returns the total to 0.0 if all items have been removed 
+#     returns the total to 0.0 if all items have been removed
+  
+  def void_last_transaction 
+    
+  end
+end
+
+ 
+ 
