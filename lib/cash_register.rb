@@ -2,6 +2,11 @@
 #   ::new
 #     sets an instance variable @total on initialization to zero
 #     optionally takes an employee discount on initialization 
+class CashRegister
+  
+  
+    
+end
 #   #total
 #     returns the current total 
 #   #add_item
