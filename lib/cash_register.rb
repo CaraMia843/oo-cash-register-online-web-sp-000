@@ -22,6 +22,9 @@ class CashRegister
     if amount < 1 
       counter = 0 
       while counter < amount
+      @items << item 
+      counter += 1 
+    end
   end
 end
 #   #total
