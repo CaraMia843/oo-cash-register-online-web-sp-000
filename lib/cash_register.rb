@@ -4,8 +4,9 @@
 #     optionally takes an employee discount on initialization 
 class CashRegister
   
-  
-    
+  def initialize
+    @total = total
+  end  
 end
 #   #total
 #     returns the current total 
