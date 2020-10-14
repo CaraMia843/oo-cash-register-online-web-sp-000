@@ -18,7 +18,6 @@ class CashRegister
   
   def self.add_item(item, price)
     
-      
   end
 end
 #   #total
