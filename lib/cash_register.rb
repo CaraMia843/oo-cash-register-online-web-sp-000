@@ -29,6 +29,8 @@ class CashRegister
       @items << item
     end
   end
+  
+  def apply_discount
 end
 #   #total
 #     returns the current total 
