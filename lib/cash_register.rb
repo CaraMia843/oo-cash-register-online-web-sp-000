@@ -21,6 +21,7 @@ class CashRegister
     @total = price * amount
     if amount < 1 
       counter = 0 
+      while counter < amount
   end
 end
 #   #total
