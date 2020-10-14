@@ -47,7 +47,7 @@ class CashRegister
 #       returns a string error message that there is no discount to apply
 
   def apply_discount
-      
+    
   end
   
   #   #items
