@@ -4,9 +4,15 @@
 #     optionally takes an employee discount on initialization 
 class CashRegister
   
-  def initialize
+  attr_accessor :total
+  
+  def initialize(total = 0)
     @total = total
   end  
+  
+  def self.total
+    @total
+  end
 end
 #   #total
 #     returns the current total 
