@@ -4,7 +4,7 @@
 #     optionally takes an employee discount on initialization 
 class CashRegister
   
-  attr_accessor :total
+  attr_accessor :total, :discount, :price, :items
   
   def initialize(total = 0)
     @total = total
