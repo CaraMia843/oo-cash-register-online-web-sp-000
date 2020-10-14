@@ -15,6 +15,10 @@ class CashRegister
   def self.total
     @total
   end
+  
+  def self.add_item()
+      
+  end
 end
 #   #total
 #     returns the current total 
